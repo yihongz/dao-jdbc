@@ -37,8 +37,8 @@ public class Seller implements Serializable{
 		return name;
 	}
 
-	public void setName(String email) {
-		this.email = email;
+	public void setName(String name) {
+		this.name = name;
 	}
 	
 	public String getEmail() {
@@ -100,7 +100,7 @@ public class Seller implements Serializable{
 
 	@Override
 	public String toString() {
-		return "Seller [id=" + id + ", name=" + name + ", birthDate=" + birthDate + ", baseSalary=" + baseSalary
-				+ ", department=" + department + "]";
+		return "Seller [id=" + id + ", name=" + name + ", email=" + email + ", birthDate=" + birthDate + ", baseSalary="
+				+ baseSalary + ", department=" + department + "]";
 	}
 }
