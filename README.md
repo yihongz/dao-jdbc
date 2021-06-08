@@ -26,7 +26,7 @@ public interface Dao<T, K> {
 
 ## How to run
 
-Prerequisites: Java 11 and MySQL Connector/J 8.0.25
+Prerequisites: JavaSE-15 and MySQL Connector/J 8.0.25
 
 ```bash
 # clone the repository
